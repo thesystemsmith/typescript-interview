@@ -63,7 +63,7 @@ var name1 = null;
 greet2(name1); // "Name is not provided"
 
 var name2 = "Anders";
-greet(name2);  // "Good morning, ANDERS"
+greet2(name2);  // "Good morning, ANDERS"
 
 
 // never
