@@ -24,7 +24,7 @@ function notify(): void {
 let foo: unknown = "Akshay";
 let bar: string = foo; // Type 'unknown' is not assignable to type 'string'.(2322)
 
-//You can assign anything to the unknown, but the unknown isn’t assignable to anything but itself and any, without performing a type assertion of a control-flow-based narrowing.
+//You can assign anything to the unknown, but the unknown isn’t assignable to a`nything but itself and any, without performing a type assertion of a control-flow-based narrowing.
 
 let foo1: unknown = "Akshay";
 let bar1: string = foo1 as string;
@@ -60,7 +60,7 @@ function greet2(name: string | null) {
 }
 
 var name1 = null;
-greet(name1); // "Name is not provided"
+greet2(name1); // "Name is not provided"
 
 var name2 = "Anders";
 greet(name2);  // "Good morning, ANDERS"
